@@ -1,0 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Gabarito&family=Leckerli+One&display=swap");
+
+@font-face {
+	font-family: "Molle";
+	src: url("/fonts/Molle-Regular.ttf") format("truetype");
+}
+
+:root {
+	--font-sans-serif: "Gabarito", sans-serif;
+	--font-cursive: "Molle", cursive;
+}

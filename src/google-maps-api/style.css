@@ -1,0 +1,47 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+#map {
+  height: 500px;
+  width: 100%;
+}
+#content {
+
+  color: black;
+}
+.shark-pin-1 {
+  background-color: #035ae6;
+  border-radius: 8px;
+  color: #FFFFFF;
+  font-size: 14px;
+  padding: 10px 15px;
+  position: relative;
+}
+
+.shark-pin-1::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 100%;
+  transform: translate(-50%, 0);
+  width: 0;
+  height: 0;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-top: 8px solid #035ae6;
+}
+
+.shark-pin {
+  background-color: #003da0;
+}
+
+.shark-pin::after {
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent; 
+  border-top: 8px solid #003da0;
+}
+
+[class$=api-load-alpha-banner] {
+  display: none;
+}
